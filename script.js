@@ -83,20 +83,32 @@
 // }
 
 
-let today = "Monday";
+// let today = "Monday";
 
-if(today == "Saturday") {
-    console.log("Today we have a main class!");
-} else if (today == "Sunday") {
-    console.log("Today we have a support class");
-} else if (today == "Monday") {
-    console.log("Today we have a main class!");
-}else if (today == "Tuesday") {
-    console.log("Today we have a support class");
-}else if (today == "Wednesday") {
-    console.log("Today we have a main class!");
-} else if (today == "Thursday") {
-    console.log("Today we have a support class");
+// if(today == "Saturday") {
+//     console.log("Today we have a main class!");
+// } else if (today == "Sunday") {
+//     console.log("Today we have a support class");
+// } else if (today == "Monday") {
+//     console.log("Today we have a main class!");
+// }else if (today == "Tuesday") {
+//     console.log("Today we have a support class");
+// }else if (today == "Wednesday") {
+//     console.log("Today we have a main class!");
+// } else if (today == "Thursday") {
+//     console.log("Today we have a support class");
+// } else {
+//     console.log("Today is our holiday!");
+// }
+
+
+// 5. Nested conditional Statement 
+const x = 10;
+
+if( x >= 10 ) {
+   if( x == 10) {
+    console.log("X = " + x);
+   }
 } else {
-    console.log("Today is our holiday!");
+    console.log("X is lower than 10!");
 }

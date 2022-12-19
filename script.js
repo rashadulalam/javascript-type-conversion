@@ -53,18 +53,50 @@
 // console.log(Boolean("Adrita"));
 // console.log(Boolean("123"));
 
-const job = 1;
+// const job = 1;
 
-if( job ) {
-    console.log("I have a Good Job!");
+// if( job ) {
+//     console.log("I have a Good Job!");
+// } else {
+//     console.log("Looking for a Good Job!");
+// }
+
+// let salary;
+
+// if( salary ) {
+//     console.log("My salary is set!" );
+// } else {
+//     console.log("My salary isn't set!" );
+// }
+
+// 4. JavaScript conditional Statement
+// let earning = 10000;
+
+// if( earning > 35000) {
+//     console.log("He is earning very good amount!");
+// } else if( earning > 20000) {
+//     console.log("His earning isn't bad!");
+// } else if( earning > 1000) {
+//     console.log("He is earning is " + earning );
+// } else {
+//     console.log("His earning isn't good enouth!");
+// }
+
+
+let today = "Monday";
+
+if(today == "Saturday") {
+    console.log("Today we have a main class!");
+} else if (today == "Sunday") {
+    console.log("Today we have a support class");
+} else if (today == "Monday") {
+    console.log("Today we have a main class!");
+}else if (today == "Tuesday") {
+    console.log("Today we have a support class");
+}else if (today == "Wednesday") {
+    console.log("Today we have a main class!");
+} else if (today == "Thursday") {
+    console.log("Today we have a support class");
 } else {
-    console.log("Looking for a Good Job!");
-}
-
-let salary;
-
-if( salary ) {
-    console.log("My salary is set!" );
-} else {
-    console.log("My salary isn't set!" );
+    console.log("Today is our holiday!");
 }

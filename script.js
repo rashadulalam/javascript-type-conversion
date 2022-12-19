@@ -23,7 +23,20 @@
 
 
 // convert to Boolean
-const innputNumber = "7500";
-const firstName = "Adrita";
-console.log(Boolean(innputNumber));
-console.log(Boolean(firstName));
+// const innputNumber = "7500";
+// const firstName = "Adrita";
+// console.log(Boolean(innputNumber));
+// console.log(Boolean(firstName));
+
+
+
+// 2. JavaScript Type Coercion
+// JavaScript Auto data conversion process
+let bookNumber = 5;
+console.log("I have " + bookNumber + " Story Book");
+console.log("20" - 5)
+console.log("20" / 5);
+
+console.log( 5 + 10 + 5 + "5");
+console.log("100" - "50" + 10);
+console.log("15" - "5" - "4" + "5")

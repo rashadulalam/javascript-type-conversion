@@ -103,12 +103,46 @@
 
 
 // 5. Nested conditional Statement 
-const x = 10;
+// const x = 10;
 
-if( x >= 10 ) {
-   if( x == 10) {
-    console.log("X = " + x);
-   }
-} else {
-    console.log("X is lower than 10!");
+// if( x >= 10 ) {
+//    if( x == 10) {
+//     console.log("X = " + x);
+//    }
+// } else {
+//     console.log("X is lower than 10!");
+// }
+
+// 6. Switch statement
+
+let day = "Friday";
+
+switch( day ) {
+
+    case "Saturday" :
+        console.log("Today 9pm we have a live main class!");
+        break;
+    
+    case "Sunday" :
+        console.log("Today 9pm we have a live support class!");
+        break;
+    
+    case "Monday" :
+        console.log("Today 9pm we have a live main class!");
+        break;
+    
+    case "Tuesday" :
+        console.log("Today 9pm we have a live support class!");
+        break;
+    
+    case "Wednesday" :
+        console.log("Today 9pm we have a live main class!");
+        break;
+    
+    case "Thursday" :
+        console.log("Today 9pm we have a live support class!");
+        break;
+    
+    default:
+        console.log("Today is our holiday!");
 }
